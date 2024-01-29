@@ -1,0 +1,67 @@
+/* Custom Styles for Weather Dashboard */
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+header h1 {
+  margin: 0;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.main {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+#current-temperature {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#current-temperature h3 {
+  margin: 0 0 10px 0;
+  font-size: 24px;
+}
+
+#forecast-data {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 10px;
+}
+
+.hourly-forecast-item {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+footer {
+  background-color: #007bff;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.weather-source p {
+  margin: 0;
+}
